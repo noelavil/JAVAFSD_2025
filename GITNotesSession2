@@ -1,0 +1,18 @@
+Create the folder and add some files to its
+step:1 initialize the git hub repository
+	> git init
+step:2 create some file and add it to the folder
+	> echo "Hello World!" > file.txt
+	or simpli you can create  the files dircetly in the folder
+Step:3 add the file or files to the stagging Area (to prepare the file to get ready to move to the remote repository)
+	> git add <filename>
+	> git add .         // . represents all files
+	> ls               // list of files available
+	> git rm --cached file.txt      // remove the file from stagging
+
+Step:4 create the snapshot of the file
+	> git commit -m "Commit Messages"
+
+Step:5 check the logs of commits
+	> git log               //full logs of all the files within the folder
+	> git log --oneline     //short logs in one line only
