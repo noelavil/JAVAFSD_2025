@@ -1,0 +1,29 @@
+Welcome to Git and Github Repository
+
+Step:1 download git from Link: https://git-scm.com/downloads
+
+Step:2 to create github account
+
+Step:3 to create a remote reposiroty 
+
+Step:4 create folder in your local machine that you want to upload in github
+
+Step:5 copy the commands from git repository
+
+Step:6 git commands
+
+1. git init
+
+2. git branch -M main
+
+3. git remote add origin https://github.com/Nikunj-Java/test.git
+
+4. for the very first time it will ask for global username and email so you need to provide
+	git config --global user.email "you@example.com"
+	git config --global user.name "Your Name"
+
+5. git add .
+
+6. git commit -m "Your Message"
+
+7. git push -u origin main
