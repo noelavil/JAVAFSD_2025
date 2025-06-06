@@ -1,0 +1,83 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "Office Building Design",
+      "description": "Designing a 10-story corporate office.",
+      "deadline": "2025-08-30",
+      "status": "In Progress"
+    },
+    {
+      "id": "2",
+      "title": "Museum Renovation",
+      "description": "Renovating the old city museum.",
+      "deadline": "2025-12-15",
+      "status": "Pending"
+    }
+  ],
+  "clients": [
+    {
+      "id": "1",
+      "name": "Anna Smith",
+      "email": "anna@example.com",
+      "phone": "9876543210"
+    },
+    {
+      "id": "2",
+      "name": "David Brown",
+      "email": "david@example.com",
+      "phone": "1234567890"
+    }
+  ],
+  "meetings": [
+    {
+      "id": "1",
+      "clientId": 1,
+      "date": "2025-06-01",
+      "time": "10:00",
+      "purpose": "Discuss office project"
+    },
+    {
+      "id": "2",
+      "clientId": 2,
+      "date": "2025-06-03",
+      "time": "14:00",
+      "purpose": "Initial consultation"
+    },
+    {
+      "id": "0",
+      "clientId": "123",
+      "date": "2025-05-26",
+      "time": "02:36",
+      "purpose": "test meeting"
+    },
+    {
+      "id": "0",
+      "clientId": "3",
+      "date": "2025-05-26",
+      "time": "10:30",
+      "purpose": "Stand Up Meeting"
+    },
+    {
+      "id": "0",
+      "clientId": "4",
+      "date": "2025-05-25",
+      "time": "11:00",
+      "purpose": "Stand Up Meeting"
+    },
+    {
+      "id": "0",
+      "clientId": 0,
+      "date": "2025-05-25",
+      "time": "10:20",
+      "purpose": "Stand Up Meeting"
+    },
+    {
+      "id": 0,
+      "clientId": "6",
+      "date": "2025-06-06",
+      "time": "12:00",
+      "purpose": "Preparing files and document for review"
+    }
+  ]
+}

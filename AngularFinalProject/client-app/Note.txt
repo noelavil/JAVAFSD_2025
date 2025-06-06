@@ -1,0 +1,1 @@
+Note: We did not use a database, but used db.json file for the data.  I still have long way to go, but this class was a great start.  We had a great teacher. I will be revisit this in the future as a reference and will make modification.  Thanks SimpliLearn.  

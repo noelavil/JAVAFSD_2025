@@ -1,0 +1,11 @@
+<div class="container mt-4">
+  <h3>Schedule Meeting</h3>
+  <form (ngSubmit)="submitMeeting()" class="form-group">
+    <input class="form-control mb-2" [(ngModel)]="meeting.clientId" name="clientId" placeholder="Client ID" required />
+    <input class="form-control mb-2" [(ngModel)]="meeting.date" name="date" type="date" required />
+    <input class="form-control mb-2" [(ngModel)]="meeting.time" name="time" type="time" required />
+    <input class="form-control mb-2" [(ngModel)]="meeting.purpose" name="purpose" placeholder="Purpose" required />
+    <button class="btn btn-primary" type="submit">Schedule</button>
+  </form>
+  <div *ngIf="message" class="alert alert-success mt-3">{{ message }}</div>
+</div>

@@ -1,0 +1,29 @@
+<div class="container mt-4">
+  <h4>Scheduled Meetings</h4>
+
+  <div *ngIf="loading" class="alert alert-info">Loading meetings...</div>
+  <div *ngIf="errorMsg" class="alert alert-danger">{{ errorMsg }}</div>
+
+  <table class="table table-bordered table-striped" *ngIf="meetings.length">
+    <thead class="thead-dark">
+      <tr>
+        <th>ID</th>
+        <th>Client ID</th>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Purpose</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let meeting of meetings">
+        <td>{{ meeting.id }}</td>
+        <td>{{ meeting.clientId }}</td>
+        <td>{{ meeting.date }}</td>
+        <td>{{ meeting.time }}</td>
+        <td>{{ meeting.purpose }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p *ngIf="!meetings.length && !loading" class="text-muted">No meetings scheduled.</p>
+</div>
